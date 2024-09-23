@@ -10,6 +10,6 @@ if ('serviceWorker' in navigator) {
     });
 }
  
-function sayHello() {
+function calcutalte() {
     document.getElementById('hello').innerText = 'Hello world';
 }
