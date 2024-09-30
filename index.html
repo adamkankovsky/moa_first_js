@@ -10,18 +10,19 @@
 </head>
 <body>
     <form>
-        <label for="first_number">Prvni cislo:</label><br>
+        <label for="first_number">První číslo:</label><br>
         <input type="number" id="first_number" name="first_number"><br>
-        <select id="cars" name="cars">
+        <label for="operands">Operátor:</label><br>
+        <select aria-label="Selected operand" id="operands" name="operands">
             <option value="+">+</option>
             <option value="-">-</option>
             <option value="*">*</option>
             <option value="/">/</option>
-          </select>
-        <label for="second_number">Druhe cislo:</label><br>
-        <input type="number" id="second_number" name="second_number">
-        <button id="calculate" onclick="Calculate">=</button>
-        <label id="result">0</label>
+        </select><br>
+        <label for="second_number">Druhé číslo:</label><br>
+        <input type="number" id="second_number" name="second_number"><br>
+        <button type="button" id="calculate" onclick="calculate()">=</button>
+        <label id="result">Result: </label>
     </form>
 </body>
 </html>

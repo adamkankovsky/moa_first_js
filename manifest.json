@@ -15,5 +15,5 @@
       }
     ],
     "start_url": "/index.html",          
-    "display": "portrait"
+    "display": "standalone"
 }
